@@ -1,13 +1,8 @@
 {
   "name": "jax-tube",
+  "description": "open-source guitar effects panel",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "electron-is-dev": "^1.1.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
-  },
   "author": {
     "name": "wayne jackson",
     "email": "wjackson211@gmail.com",
@@ -28,8 +23,14 @@
       "buildResources": "assets"
     }
   },
-  "main": "public/electron.js",
+  "dependencies": {
+    "electron-is-dev": "^1.0.1",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-scripts": "2.1.5"
+  },
   "homepage": "./",
+  "main": "public/electron.js",
   "scripts": {
     "start": "rescripts start",
     "build": "rescripts build",
@@ -43,25 +44,19 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
   "devDependencies": {
     "@rescripts/cli": "^0.0.10",
     "@rescripts/rescript-env": "^0.0.10",
     "concurrently": "^4.1.0",
-    "electron": "^5.0.2",
-    "electron-builder": "^20.43.0",
-    "typescript": "^3.5.1",
+    "electron": "^4.0.6",
+    "electron-builder": "^20.38.5",
+    "typescript": "^3.3.3333",
     "wait-on": "^3.2.0"
   }
 }

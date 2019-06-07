@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/wjackson211/jax-tube/issues"
   },
-  "homepage": "https://github.com/wjackson211/jax-tube#readme"
+  "homepage": "https://github.com/wjackson211/jax-tube#readme",
+  "devDependencies": {
+    "electron": "^5.0.2"
+  }
 }
